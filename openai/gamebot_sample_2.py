@@ -1,3 +1,6 @@
+# Basic example : https://gym.openai.com/docs/
+# Note the extra time.sleep(..) and env.close() statements
+
 import gym
 import time
 
