@@ -13,12 +13,15 @@ be considered as a black box which we must attempt to approximate).
 - State(S): The instantaneous configuration of the environment.
 - Reward(R): Feedback by which we measure the success or failure of the agent's actions.
 Rewards can be immediate or delayed. When we just say reward, we usually mean the immediate one.
-- Discount(\gamma): This is basically a fight against delayed gratification. Powers of \gamma are multiplied
+- Discount(gamma): This is basically a fight against delayed gratification. Powers of gamma are multiplied
 by future rewards discovered by the agent to decrease their influence on the action which the agent chooses.
-- Policy(\pi): Strategy that the agent employees to determine the next action based on
+- Policy(pi): Strategy that the agent employees to determine the next action based on
 the current state. A policy maps a state to action(s). The policy can be deterministic or stochastic.  
-Value(V): The expected long-term{as opposed to R, which is immediate} return with discount. V\pi(s) is defined as the expected long-term return
-of the current state under policy \pi.
+Value(V): The expected long-term{as opposed to R, which is immediate} return with discount. Vpi(s) is defined as the expected long-term return
+of the current state under policy pi.
 Q-value(aka action value): Similar to value, but it takes an extra parameter, the action 'a' as well.
-Q\pi(s) refers to the long term return of the current state s, taking action a under policy pi.
+Qpi(s) refers to the long term return of the current state s, taking action a under policy pi.
 Task: Instances of RL problems are called tasks. They can be episodic or continuous.
+
+### The RL Loop
+![https://cdn-images-1.medium.com/max/800/1*EvEIjVqNcrAF9pEfbrL7ng.jpeg](resources/rl_loop.jpeg)
