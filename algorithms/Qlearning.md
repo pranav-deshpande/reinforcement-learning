@@ -18,7 +18,7 @@ The algorithm can be described briefly as follows:
 
 Note that the Bellman Equation is given by:
 
-![https://cdn-images-1.medium.com/max/800/1*2APPuDNSpWMlaiin7R0C9g.png](resources/bellman_equation.png)
+![https://cdn-images-1.medium.com/max/800/1*2APPuDNSpWMlaiin7R0C9g.png](../resources/bellman_equation.png)
 
 ### Deep Q Learning
 Use a neural network  to approximate the Q learning table.
