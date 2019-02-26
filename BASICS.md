@@ -5,7 +5,7 @@ RL is a kind of machine learning in which the agent learns to behave
 in an environment by observing the results of its actions.
 - There are 3 approaches to RL: value based, policy based and model based.
 - The goal of an RL 'agent' is to maximise the 'expected cumulative reward'.
-
+- RL algorithms are a set of ML algorithms inspired by behavioural psychology.
 ### Definitions
 - Agent: The entity which takes action is known as the agent(basically our algorithm!)
 - Action(A): Actions are the set of all possible moves that an agent can make.
