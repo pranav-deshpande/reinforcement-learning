@@ -20,6 +20,8 @@ Note that the Bellman Equation is given by:
 
 ![https://cdn-images-1.medium.com/max/800/1*2APPuDNSpWMlaiin7R0C9g.png](../resources/bellman_equation.png)
 
+Alternatively also written as:
+![https://wikimedia.org/api/rest_v1/media/math/render/svg/47fa1e5cf8cf75996a777c11c7b9445dc96d4637](../resources/bellman_equation_2.svg)
 ### Deep Q Learning
 Use a neural network  to approximate the Q learning table.
 The network outputs [action, reward] pairs when a state is given as input.
